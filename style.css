@@ -57,4 +57,41 @@ width: 100%;
   tr:nth-child(even) {
     background-color: #a57713;
   }
- 
+  #about{
+     
+        border: 1px solid gray;
+        padding: 8px;
+        background-color: rgb(42, 50, 71);
+        text-align:center;
+        padding: 20px 30px;
+        font-size: 20px;
+  }
+  h2{
+    font-family:Arial, Verdana;
+    text-align:center;
+    padding: 30px;
+    font-size: 40px;
+  }
+  div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+    
+  
