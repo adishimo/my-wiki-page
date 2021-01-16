@@ -15,7 +15,8 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
-background-color: rgb(161, 134, 224);
+font-weight: 900;
+background-color: black;
 }
 
 ul {
@@ -110,6 +111,12 @@ font-size: 40px;
 padding: 100px;
 text-align: left
 font-size: 40px;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
 }
 
 label {
@@ -123,13 +130,11 @@ font-size: 20px;
     }
   }
 
-  #shop {
-    margin: 10px 5px;
-  }
 input {
-  margin: 8px 0;
-  box-sizing: border-box;
+margin: 8px 0;
+box-sizing: border-box;
 }
+
 #button {
 background-color: #474c64;
 border: none;
