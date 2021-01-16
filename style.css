@@ -37,7 +37,7 @@ li a {
 display: block;
 color: white;
 text-align: center;
-padding: 20px 30px;
+padding: 14px 16px;
 text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -123,6 +123,13 @@ font-size: 20px;
     }
   }
 
+  #shop {
+    margin: 10px 5px;
+  }
+input {
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 #button {
 background-color: #474c64;
 border: none;
@@ -138,7 +145,6 @@ margin-left: 300px;
 }
  
 #p {
-    font-family:Arial, Verdana;
-
+font-family:Arial, Verdana;
 font-size: 40px;
 }
